@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+         @font-face {
+        font-family: 'RobuckRounded';
+        src: url('fonts/RobuckRounded.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+        body{
+            font-family: 'RobuckRounded';
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            
+        }
+        .button{
+            font-family: 'RobuckRounded';
+            display: inline-block;
+            color: white;
+            background-color: #000000;
+            width:30vw;
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            transition:  0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        
+
+    </style>
 </head>
 <body>
-    <a href="Sprint_1/Projekt1.html">sprint_1</a>
+    <a href="Sprint_1/Projekt1.html" class="button">sprint_1</a>
     link: sprint_1
-    <a href="Projekt/Entwurf_Animation.html">Animation</a>
+    <a href="Projekt/Entwurf_Animation.html" class="button">Animation</a>
     link: Entwurf_Animation
-    <a href="Projekt/Entwurf4.html">Projekt</a>
+    <a href="Projekt/Entwurf4.html" class="button">Projekt</a>
     link: Projekt
 </body>
 </html>
