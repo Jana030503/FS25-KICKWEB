@@ -11,6 +11,8 @@
         font-weight: normal;
         font-style: normal;
     }
+
+    
         body{
             height: 100vh;
             width: 100vw;
@@ -20,16 +22,27 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            background-color: #f4f4f4;
+            background-color: #000000;
             
+        }
+        .text{
+            position:absolute;
+            top: 10vh; /* Abstand vom oberen Rand */
+            
+            font-size: 60px;
+            color: rgb(255, 255, 255);
+            
+
         }
         .button{
             font-family: 'RobuckRounded';
+            text-decoration: none;
             display: inline-block;
-            color: white;
-            background-color: #000000;
-            width:30vw;
-            font-size: 20px;
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+            width:20vw;
+            font-size: 30px;
+            text-align: center;
             padding: 10px 20px;
             margin: 10px;
             border-radius: 5px;
@@ -42,12 +55,19 @@
 
     </style>
 </head>
+
+
+
 <body>
-    <a href="Sprint_1/Projekt1.html" class="button">sprint_1</a>
-    link: sprint_1
-    <a href="Projekt/Entwurf_Animation.html" class="button">Animation</a>
-    link: Entwurf_Animation
-    <a href="Projekt/Entwurf4.html" class="button">Projekt</a>
-    link: Projekt
+    <div class="text">Jana Stocker
+         <br>
+          Kickweb 2025</div>
+    <div class="buttons">
+        <a href="Sprint_1/Projekt1.html" class="button">sprint_1</a>
+        <a href="Projekt/Entwurf_Animation.html" class="button">Animation</a>
+        <a href="Projekt/Entwurf4.html" class="button">Projekt</a>
+    </div>
+    
+    
 </body>
 </html>
