@@ -33,9 +33,7 @@
             padding-right: 1rem;
             margin: 3px;
             transition-delay: 2s;
-
         }
-
         .item:hover {
             animation: none !important;
             opacity: 1 !important;
@@ -43,18 +41,19 @@
             transition-duration: 0s;
             transition-delay: 0s;
         }
-
         .text {
             text-align: center;
             font-size: 14vh;
             font-family: 'RobuckRounded';
         }
 
+        /* Verhalten von Text "NO"------------------------------------------------------------------------------------------------*/
         .t1{
             display: flex;
-
         }
-        
+
+        /* Verhalten der schwarzen Balken-----------------------------------------------------------------------------------------*/
+       
         .i1 {
             flex-basis: 10px;
             /* Basisbreite */
@@ -66,166 +65,114 @@
 
         .i2 {
             flex-basis: 300px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i3 {
             flex-basis: 10px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i4 {
             flex-basis: 300px;
-            /* Basisbreite */
             flex-grow: 0;
-            /*Element soll wachsen*/
             flex-shrink: 1;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i5 {
             flex-basis: 10px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i6 {
             flex-basis: 170px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i7 {
             flex-basis: 150px;
-            /* Basisbreite */
             flex-grow: 0;
-            /*Element soll wachsen*/
             flex-shrink: 1;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i8 {
             flex-basis: 10px;
-            /* Basisbreite */
             flex-grow: 0;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i9 {
             flex-basis: 200px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i10 {
             flex-basis: 10px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i11 {
             flex-basis: 130px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 1;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i12 {
             flex-basis: 50px;
-            /* Basisbreite */
             flex-grow: 0;
-            /*Element soll wachsen*/
             flex-shrink: 1;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i13 {
             flex-basis: 10px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i14 {
             flex-basis: 200px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i15 {
             flex-basis: 200px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i16 {
             flex-basis: 800px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 1;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i17 {
             flex-basis: 200px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 1;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i18 {
             flex-basis: 200px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
         .i19 {
             flex-basis: 200px;
-            /* Basisbreite */
             flex-grow: 1;
-            /*Element soll wachsen*/
             flex-shrink: 0;
-            /*Element soll nicht schrumpfen*/
         }
 
+        /* Weitere Linie bei screen max-width: 640px ----------------------------------------------------------------------------------*/
+       
         .Linie2 {
             display: none;
             justify-content: space-between;
@@ -256,6 +203,8 @@
             flex-grow: 1;
             flex-shrink: 0;
         }
+
+        /* Blink-Animation------------------------------------------------------------------------------------------------------*/
 
         @keyframes einaus_1 {
             0%{
@@ -291,6 +240,8 @@
             
         }
 
+        /* Media Queries------------------------------------------------------------------------------------------------------*/
+
         @media screen and (max-width: 640px) {
             .Linie {
             
@@ -309,9 +260,6 @@
             display: none;
 
         }
-            
-
-
 
         }
         @media screen and (min-width: 1024px) {
@@ -319,9 +267,7 @@
                 transform: scaleY(-1);
                 -webkit-text-stroke-width: 3px;
                 -webkit-text-stroke-color: black;
-                color: rgb(255, 0, 0);
-
-                
+                color: rgb(255, 0, 0);  
 
         }
         @keyframes einaus_4 {
@@ -346,6 +292,8 @@
         }
            
         }
+        
+        
     </style>
 </head>
 
