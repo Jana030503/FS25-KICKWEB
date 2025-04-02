@@ -317,11 +317,32 @@
         @media screen and (min-width: 1024px) {
             .t2{
                 transform: scaleY(-1);
-                
+                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-color: black;
                 color: rgb(255, 0, 0);
 
                 
 
+        }
+        @keyframes einaus_4 {
+            0%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 1;
+            }
+            51% {
+            opacity: 0;
+              }
+            100%{
+                opacity: 0;
+            }
+        }
+        .einaus_4{
+            animation-name: einaus_4;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+           
         }
            
         }
@@ -373,7 +394,7 @@
     </div>
     <div class="Linie">
         <div class="item i16 einaus_2"></div>
-        <div class="text t2">CHAOS</div>
+        <div class="text t2 einaus_4">CHAOS</div>
         <div class="item i17 einaus_1"></div>
     </div>
     <div class="Linie">
